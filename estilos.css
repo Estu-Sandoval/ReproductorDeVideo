@@ -1,4 +1,4 @@
-.container{
+.container {
     width: 60%;
     height: 600px;
     margin: auto;
@@ -11,12 +11,12 @@
     align-items: center;
 }
 
-.container_video{
+.container_video {
     width: 80%;
     height: 75%;
 }
 
-.container_botones{
+.container_botones {
     width: 90%;
     height: 15%;
     display: flex;
@@ -25,46 +25,57 @@
     align-items: center;
 }
 
-.btn{
+.btn {
     width: 32px;
     height: 32px;
     border-radius: 50%;
 }
 
-.container_progreso{
+.container_progreso {
     width: 60%;
     height: 35%;
-    background-color: violet;
+    border: 2px solid black;
 }
 
-.container_volumen{
+.container_volumen {
     width: 20%;
     height: 35%;
-    background-color: violet;
+    border: 2px solid black;
 }
 
-.play{
+.progreso{
+    background-color: rgb(77, 255, 46);
+    height: 100%;
+    width: 0%;
+}
+
+.volumen{
+    background-color: rgb(56, 46, 255);
+    height: 100%;
+    width: 100%;
+}
+
+.play {
     background-image: url('./Play.png');
 }
 
-.pausa{
+.pausa {
     background-image: url('./Pause.jpg');
 }
 
-.anterior{
+.anterior {
     background-image: url('./Anterior.jpg');
 }
 
-.siguiente{
+.siguiente {
     background-image: url('./Siguiente.jpg');
 }
 
-.full{
+.full {
     background-image: url('./Full.png');
 }
 
-#video{
+#video {
     width: 100%;
     height: 100%;
 }
-
